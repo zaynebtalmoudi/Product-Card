@@ -4,7 +4,7 @@ import Name from "./components/Name"
 import Price from "./components/Price"
 import Description from "./components/Description"
 import Image from "./components/Image"
-import { Card, Badge,Button} from 'react-bootstrap';
+import { Card, Badge} from 'react-bootstrap';
 import ReviewStar from './ReviewStar'
 
 
