@@ -19,7 +19,7 @@ function App() {
           <span class="position-absolute top-0 start-0 "><Badge bg="dark"><Price p={jsonP}/></Badge></span>
           {/* <span class="position-relative  top-10 start-10"><Badge bg="dark"><Price p={jsonP}/></Badge></span> */}
            
-           <Image p={jsonP}/>  
+          <Image p={jsonP}/>  
           <Card.Body>
             <Card.Title> <Name p={jsonP} /></Card.Title>
             <Card.Text className= "text-body-secondary">
@@ -29,25 +29,12 @@ function App() {
             {/* Reviews */}
             <div>
                <ReviewStar/><ReviewStar/><ReviewStar/><ReviewStar/> <span style={{fontSize:'14px'}}> (186 reviews)</span>
-              {/* Buutton */}
-            
+             
+              {/* cart Button */}
             <button style={{backgroundColor:'rgba(44, 212, 64)'}} class=' ms-4 btn rounded'> <img style={{width:'24px',height:'24px'}} src="./cart.png" alt="cart" /> </button>
-            
             </div>
-            
-          </Card.Body>
-          
+          </Card.Body>  
         </Card> 
-     
-     
-
-      
-     {/* <div>
-      <Image product={jsonP}/>
-      <Name product={jsonP}/>
-      <Price product={jsonP}/>
-      <Description product={jsonP}/>
-    </div> */}
     </div>
   );
 }
